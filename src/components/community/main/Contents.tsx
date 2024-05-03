@@ -15,16 +15,16 @@ const Item = styled(Paper)(({ theme }) => ({
 function FormRow() {
   return (
     <React.Fragment>
-      <Grid item xs={4}>
+      <Grid item xs={3}>
         <Item>1</Item>
       </Grid>
-      <Grid item xs={4}>
+      <Grid item xs={3}>
         <Item>2</Item>
       </Grid>
-      <Grid item xs={4}>
+      <Grid item xs={3}>
         <Item>3</Item>
       </Grid>
-      <Grid item xs={4}>
+      <Grid item xs={3}>
         <Item>4</Item>
       </Grid>
     </React.Fragment>
