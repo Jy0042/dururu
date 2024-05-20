@@ -1,0 +1,71 @@
+@import url('https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable.min.css');
+
+// color
+$hover-color: #5ff531;
+
+// font
+$font-size-xxl: 24px;
+$font-size-xl: 22px;
+$font-size-l: 18px;
+$font-size-m: 16px;
+$font-size-s: 14px;
+$font-size-xs: 12px;
+$font-size-xxs: 11px;
+
+$font-weight-bold: 700;
+$font-weight-medium: 500;
+$font-weight-regular: 400;
+
+// custom
+// flex-direction: colummn
+@mixin column {
+  display: flex;
+  flex-direction: column;
+}
+// flex-direction: colummn,center
+@mixin columnCenter {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+// flex-direction: row
+@mixin row {
+  display: flex;
+  align-items: center;
+}
+// border
+$border: 1px solid lightgray;
+
+// ProductTabs
+#navZone {
+  position: relative;
+  margin-top: 8px;
+}
+#detailNav {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  margin-top: 8px;
+  margin-bottom: 8px;
+  border-bottom: 1px solid lightgray;
+  position: sticky;
+  top: 64px;
+  background-color: white;
+  @media (max-width: 599px) {
+    top: 56px;
+    border-top: none;
+  }
+}
+#detailNav div {
+  font-size: $font-size-l;
+  font-weight: $font-weight-bold;
+  margin: 8px;
+  cursor: pointer;
+  @media (max-width: 480px) {
+    font-size: $font-size-xs;
+    z-index: 1;
+  }
+}
+#detailNav div:hover {
+  color: $hover-color;
+}

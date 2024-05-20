@@ -1,0 +1,38 @@
+[
+  {
+    "prodId": "4",
+    "product_image": [
+      "https://i.ibb.co/mcn8nmF/rrw3-1.png",
+      "https://i.ibb.co/t8h0FqQ/rrw2.png",
+      "https://i.ibb.co/PWc1L1G/rrw1-2.png"
+    ],
+    "brand_name": "RRW",
+    "product_name": "KIDS MOTION DESK",
+    "regular_price": 1500000,
+    "discount_rate": 20,
+    "discounted_price": 1264000,
+    "benefit": 968,
+    "commentCount": 20,
+    "colorOption": ["gray", "pink"],
+    "community_feed": "community_feed_url_here",
+    "product_info_image": [
+      "https://i.ibb.co/gmxmSB7/04-Study-Room-Set-01.jpg",
+      "https://i.ibb.co/VgsZFPp/top.jpg",
+      "https://i.ibb.co/gywJyTL/color.jpg",
+      "https://i.ibb.co/QMpbR8x/cont1.jpg",
+      "https://i.ibb.co/kJ3Nhnd/cont2.jpg",
+      "https://i.ibb.co/hLJQhwm/cont3.jpg",
+      "https://i.ibb.co/R0X8LFB/cont4.jpg",
+      "https://i.ibb.co/XxHrPDW/cont5.jpg",
+      "https://i.ibb.co/bHVkZTg/cont6.jpg",
+      "https://i.ibb.co/thRFL46/line.jpg",
+      "https://i.ibb.co/KVvCJb0/install.jpg",
+      "https://i.ibb.co/1MWbsDm/notice.jpg"
+    ],
+
+    "delivery_refund": [
+      "https://rareraw.openhost.cafe24.com/images/product/common/pc/delivery.jpg"
+    ],
+    "inquiryTotal": 8
+  }
+]
